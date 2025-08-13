@@ -1,0 +1,36 @@
+# Core Python version
+python>=3.9
+
+# Numerical and data manipulation
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Machine learning
+scikit-learn>=1.3.0
+
+# Deep learning (CPU version by default; GPU users should install CUDA-specific build)
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# NLP & Transformers
+transformers>=4.38.0
+datasets>=2.16.0
+sentencepiece>=0.1.99
+nltk>=3.8.1
+
+# Jupyter + notebook utilities
+jupyter>=1.0.0
+ipykernel>=6.29.0
+tqdm>=4.66.0
+
+# Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Optional: fairness metrics & explainability
+fairlearn>=0.9.0
+shap>=0.44.0
+
+# Optional: reproducibility helpers
+python-dotenv>
