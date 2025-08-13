@@ -171,6 +171,20 @@ If this project helps your work, please cite:
   institution = {Stevens Institute of Technology}
 }
 ```
+## Acknowledgements
+
+This research builds upon and extends foundational work by numerous scholars and practitioners in the fields of adversarial machine learning, AI security, and healthcare AI governance. This project was made possible by the valuable contributions of:
+
+- **Malatji (2024)** for establishing a comprehensive taxonomy of adversarial AI injection attacks, which informed the threat model design.  
+- **Baracaldo et al. (2023)** for benchmarking poisoning defenses and highlighting critical fairness trade-offs, shaping the evaluation metrics used.  
+- **Kyaw et al. (2024)** for introducing the EPIC ensemble framework, which directly inspired the ensemble poisoning detection methodology.  
+- **Patel et al. (2025)** for analyzing vulnerabilities in cloud-hosted AI workloads and motivating security considerations for distributed healthcare systems.  
+- **Qose et al. (2024)** for proposing blockchain-based AI security frameworks, influencing future roadmap items related to immutable audit trails.  
+- **Gawankar et al. (2024)** for developing integrated models of security and ethics in AI-driven healthcare, reinforcing the project’s compliance and governance framework.  
+- **Goodfellow et al. (2015)** for their seminal work on adversarial examples, forming the foundation for the FGSM-based vision defense.  
+- **Papernot et al. (2016)** for advancing defensive distillation methods, which guided supplementary robustness experiments.  
+- **Johnson et al. (2016)** for creating the MIMIC-III dataset, a benchmark resource for clinical machine learning research.  
+
 
 ---
 
