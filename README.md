@@ -103,20 +103,9 @@ jupyter notebook
 
 ---
 
-## System Diagram (Mermaid)
+## System Diagram 
 
-```mermaid
-flowchart LR
-    A[Input Data] --> B{Modality}
-    B -->|Images| C[FGSM Attack & Adversarial Training (CNN)]
-    B -->|EHR Tabular| D[Ensemble (LR/RF/SVM)\nDisagreement Poison Filter]
-    B -->|Clinical Text| E[LSTM / ClinicalBERT\nTrigger Detection & Mitigation]
-
-    C --> F[Robust Predictions]
-    D --> F
-    E --> F
-    F --> G[Monitoring + XAI + Audit Logs]
-```
+![System Diagram](system_diagram.png)
 
 ---
 
